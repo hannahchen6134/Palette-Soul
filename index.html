@@ -871,6 +871,61 @@ button,a,label,.c-card,.clickable{-webkit-tap-highlight-color:transparent}
   color:rgba(106,80,40,.38);margin-top:28px;line-height:1.9;
 }
 
+/* ══════════════════════════
+   DESKTOP RWD (768px+)
+══════════════════════════ */
+@media(min-width:768px){
+  .intro-inner{max-width:720px;padding:120px 48px 100px;}
+  .intro-title{font-size:2.2rem;}
+  .intro-sub{font-size:1.2rem;}
+  .intro-eye{font-size:.85rem;margin-bottom:40px;}
+  .intro-quote{font-size:1rem;}
+  .intro-cta{font-size:.95rem;padding:16px 56px;}
+
+  .round-header{max-width:720px;padding:80px 32px 20px;}
+  .round-q{font-size:1.35rem;}
+  .color-grid{max-width:720px;grid-template-columns:repeat(9,1fr);gap:7px;padding:10px 20px 20px;}
+
+  .svc-inner{max-width:720px;padding:90px 36px 70px;}
+  .service-title{font-size:1.1rem;}
+  .hannah-photo{width:120px;height:120px;}
+  .hannah-name-tag{font-size:1.25rem;}
+  .price-card{padding:28px 32px 22px;}
+  .price-value{font-size:1.8rem;}
+  .svc-check-list li{font-size:.95rem;}
+  .proof-text{font-size:.88rem;}
+
+  .snap-inner{max-width:720px;padding:90px 36px 90px;}
+  .snap-title{font-size:1.9rem;}
+  .snap-carousel{max-width:640px;margin:0 auto 8px;}
+  .slide-title{font-size:1.5rem;}
+  .slide-sw-wrap{width:100px;}
+  .slide-text{font-size:1rem;}
+  .diag-block{padding:30px 28px 28px;}
+  .diag-text{font-size:1rem;}
+
+  .float-bar{max-width:720px;left:50%;right:auto;transform:translateX(-50%) translateY(100%);border-radius:16px 16px 0 0;border:1px solid rgba(184,144,74,.18);border-bottom:none;}
+  .float-bar.visible{transform:translateX(-50%) translateY(0);}
+
+  .nav{max-width:100%;padding:14px 40px;}
+  .nav-logo{font-size:.78rem;}
+}
+
+@media(min-width:1024px){
+  .intro-inner{max-width:860px;padding:140px 60px 120px;}
+  .intro-title{font-size:2.6rem;}
+  .intro-sub{font-size:1.3rem;}
+
+  .round-header{max-width:860px;}
+  .color-grid{max-width:860px;grid-template-columns:repeat(10,1fr);gap:8px;}
+
+  .svc-inner{max-width:800px;padding:100px 48px 80px;}
+  .snap-inner{max-width:800px;padding:100px 48px 100px;}
+  .snap-carousel{max-width:700px;}
+
+  .float-bar{max-width:800px;}
+}
+
 /* ── TOAST ── */
 #toast{
   position:fixed;bottom:36px;left:50%;
